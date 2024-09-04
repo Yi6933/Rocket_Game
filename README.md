@@ -39,7 +39,7 @@ Windows: Right-click the compressed file and select “Extract All…” to unzi
 macOS: Double-click the compressed file to extract it.
 Linux: Use the tar command for .tar.gz files
 
-Step3.>>>Open the proect<<<
+Step3.>>>Open the project<<<
 
 Navigate to the Project Directory: Use File Explorer (Windows), Finder (macOS), or cd command (Terminal) to enter the directory.
 Open Project Files: Use a text editor (e.g., VSCode, PyCharm, Sublime Text) or an IDE to open and explore the project files. Look for files like README.md, requirements.txt, or main Python scripts (.py files) to understand the project's structure and details.
