@@ -201,7 +201,6 @@ last_hit_time = None
 show_message_duration = 2 * FPS
 
 countdown_time = 5
-countdown_start_ticks = py.time.get_ticks()
 
 while Running:
     while game_page:
@@ -213,6 +212,7 @@ while Running:
             indroduce_page = True
             Calculate_page = False
             High_score_page = False
+            countdown_start_ticks = py.time.get_ticks()
         if exit_button.draw():
             Running = False
             game_page = False
