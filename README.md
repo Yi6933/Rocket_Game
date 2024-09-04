@@ -8,7 +8,7 @@ Get the stars as possible! The stars mean the score. Hope you guys can get highe
 Press arrow left(←) and right(→) to move. 
 
 ## Game Rules
-The 'rocket' MAY not touch the meteor. If touch, then Game Over.
+Initially, the rocket will lift-off to the sky. The rocket should collects stars and gain marks but also avoid colliding with meteors. The 'rocket' MAY not touch the meteor. If touch, then Game Over.
 
 ## How to play this game?
 After we press the 'PLAY' button, it will come out a lot of meteors and also some stars. In the game, we can collect the stars. The stars have different points for you. The game will non-stop unless you died. On the top, it will also shows your playing time (Record). That's all for now. Hope you all can enjoy this games.
