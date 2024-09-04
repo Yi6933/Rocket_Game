@@ -173,7 +173,7 @@ def Introduce_message(colour, xpos, ypos):
     Screen.blit(font_text, [(xpos - Font_Width) / 2, ypos])
 
 def Introduce_message1(colour, xpos, ypos):
-    font_text = Font.render('1. Use arrow UP and DOWN to move', True, colour)
+    font_text = Font.render('1. Use arrow LEFT and RIGHT to move', True, colour)
     Font_Width = font_text.get_width()
     Screen.blit(font_text, [(xpos - Font_Width) / 2, ypos])
 
