@@ -200,7 +200,7 @@ def Countdown_message(count, colour, xpos, ypos):
 last_hit_time = None
 show_message_duration = 2 * FPS
 
-countdown_time = 5
+countdown_time = 3
 
 while Running:
     while game_page:
@@ -266,6 +266,10 @@ while Running:
             indroduce_page = True
             Calculate_page = False
             High_score_page = False
+            star_xpos = rd.randint(20, 380)
+            star_ypos = rd.randint(-200, -150)
+            meteor_xpos = rd.randint(20, 380)
+            meteor_ypos = rd.randint(-200, -150)
             countdown_start_ticks = py.time.get_ticks()
         if exit_button.draw():
             Running = False
@@ -298,6 +302,10 @@ while Running:
             indroduce_page = True
             Calculate_page = False
             High_score_page = False
+            star_xpos = rd.randint(20, 380)
+            star_ypos = rd.randint(-200, -150)
+            meteor_xpos = rd.randint(20, 380)
+            meteor_ypos = rd.randint(-200, -150)
             countdown_start_ticks = py.time.get_ticks()
         if exit_button.draw():
             Running = False
