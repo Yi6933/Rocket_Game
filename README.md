@@ -13,3 +13,7 @@ Initially, the rocket will lift-off to the sky. The rocket should collects stars
 ## How to play this game?
 After we press the 'PLAY' button, it will come out a lot of meteors and also some stars. In the game, we can collect the stars. The stars have different points for you. The game will non-stop unless you died. On the top, it will also shows your playing time (Record). That's all for now. Hope you all can enjoy this games.
 
+## Screenshot
+![Tittle_screen](https://raw.githubusercontent.com/Yi6933/Rocket_Game/main/Screenshot/Main_Page.png)
+![Gameplay](https://raw.githubusercontent.com/Yi6933/Rocket_Game/main/Screenshot/Gameplay.png)
+
