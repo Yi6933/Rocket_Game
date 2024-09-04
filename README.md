@@ -2,7 +2,7 @@
 This is a rocket game in Python! With this, you learn how to create a game of rocket in Python using Pygame. You will also create game loop, Key presses to move the rocket, check collision and game over.
 
 ## Goal
-Get the stars as possible! The stars mean the score. Hope you guys can get higher marks!
+Get the stars as much as possible! Hope you guys can get the highest marks!
 
 ## Control
 Press arrow left(←) and right(→) to move. 
