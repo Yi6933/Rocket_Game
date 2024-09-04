@@ -334,10 +334,22 @@ while Running:
     if Time > 0:
         star_hit = 0
         meteor_hit = 0
+        keys = py.key.get_pressed()
+        rocket_width = 70
 
         for event in py.event.get():
             if event.type == py.QUIT:
                 Running = False
+        
+        if keys[py.K_a] or keys[py.K_LEFT]:
+            rocket_xpos -= 8
+            if rocket_xpos < 0:
+                rocket_xpos = 0
+
+        elif keys[py.K_d] or keys[py.K_RIGHT]:
+            rocket_xpos += 8
+            if rocket_xpos > Width - rocket_width:
+                rocket_xpos = Width - rocket_width
 
         if star_ypos >= Height:
             star_ypos = rd.randint(-200, -150)
@@ -350,19 +362,6 @@ while Running:
             meteor_xpos = rd.randint(40, 350)
         else:
             meteor_ypos += 10
-
-        keys = py.key.get_pressed()
-        rocket_width = 70
-
-        if keys[py.K_a] or keys[py.K_LEFT]:
-            rocket_xpos -= 8
-            if rocket_xpos < 0:
-                rocket_xpos = 0
-
-        elif keys[py.K_d] or keys[py.K_RIGHT]:
-            rocket_xpos += 8
-            if rocket_xpos > Width - rocket_width:
-                rocket_xpos = Width - rocket_width
 
         min_y = int(rocket_ypos)
         max_y = int(rocket_ypos + 60)
