@@ -17,3 +17,33 @@ After we press the 'PLAY' button, it will come out a lot of meteors and also som
 ![Tittle_screen](https://raw.githubusercontent.com/Yi6933/Rocket_Game/main/Screenshot/Main_Page.png)
 ![Gameplay](https://raw.githubusercontent.com/Yi6933/Rocket_Game/main/Screenshot/Gameplay.png)
 
+## How to install the python,extract the file to open the project?
+Step1.>>>Install Python<<<
+1.1. Download Python
+
+Visit the Official Python Website: Go to Python's official website.
+Choose the Right Version: Download the latest version of Python compatible with your operating system (Windows, macOS, Linux).
+1.2. Run the Installer
+
+Windows: Double-click the downloaded .exe file to start the installation. Check the box labeled "Add Python to PATH" and then click "Install Now."
+macOS: Open the downloaded .pkg file and follow the installation prompts.
+Linux: Python is often pre-installed. If not, use your package manager to install it (e.g., sudo apt-get install python3 for Debian-based distributions).
+1.3. Verify Installation
+
+Open Command Prompt/Terminal: Type python --version (or python3 --version on some systems) to verify that Python is installed correctly and to check the version number.
+
+Step2.>>>Extract Files and View Projects<<<
+2.1. Locate Your Files
+
+Find the Project Files: Navigate to the directory where your project files are stored. This could be a .zip file, .tar.gz, or any other compressed format.
+2.2. Extract the Files
+
+Windows: Right-click the compressed file and select “Extract All…” to unzip the contents.
+macOS: Double-click the compressed file to extract it.
+Linux: Use the tar command for .tar.gz files
+
+Step3.>>>Open the proect<<<
+Navigate to the Project Directory: Use File Explorer (Windows), Finder (macOS), or cd command (Terminal) to enter the directory.
+Open Project Files: Use a text editor (e.g., VSCode, PyCharm, Sublime Text) or an IDE to open and explore the project files. Look for files like README.md, requirements.txt, or main Python scripts (.py files) to understand the project's structure and details.
+
+
