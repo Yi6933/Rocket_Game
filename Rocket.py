@@ -409,6 +409,6 @@ while Running:
         py.display.update()
 
     else:
-        break
+        Calculate_page = True
 
 py.quit()
