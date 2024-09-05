@@ -5,7 +5,10 @@ This is a rocket game in Python! With this, you learn how to create a game of ro
 Collect the stars as much as possible to earn points! Hope you guys can get the highest marks!
 
 ## Control
-Press arrow left(←) and right(→) to move. 
+| Keys       | Role       |
+|------------|------------|
+| a / ←      | Move Left  |
+| d / →      | Move Right |
 
 ## Game Rules
 Initially, the rocket will lift-off to the sky. The rocket should collects stars and gain marks but also avoid colliding with meteors. The 'rocket' MAY not touch the meteor. If touch, then Game Over.
